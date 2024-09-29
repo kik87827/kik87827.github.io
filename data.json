@@ -1,0 +1,86 @@
+[
+    {
+        "image" : "./assets/images/ehyundai_ban.png",
+        "specMain" : "현대백화점 홈페이지/앱 운영",
+        "specSub" : "연간 홈페이지 운영",
+        "specLink" : "https://www.ehyundai.com/",
+        "detailHTML" : "<div style='text-align:center'><img src='./assets/images/ehyundai_pc.jpg' alt=''><br><br><br><img src='./assets/images/ehyundai_mobile.jpg' alt=''><br><br><br></div>"
+    },
+    {
+        "image" : "./assets/images/bok_ban.png",
+        "specMain" : "보건복지부 복지위기 알림 앱",
+        "specSub" : "웹접근성 구축 프로젝트",
+        "specLink" : "https://play.google.com/store/apps/details?id=kr.ssis.sbj&pli=1",
+        "detailHTML" : "<div style='text-align:center;max-width:400px;margin:0 auto;'><img src='./assets/images/bok_view01.jpg' alt=''><br><br><br><img src='./assets/images/bok_view02.jpg' alt=''><br><br><br><img src='./assets/images/bok_view03.jpg' alt=''><br><br><br></div>"
+    },
+    {
+        "image" : "./assets/images/db_ban.png",
+        "specMain" : "동부화재 원격컨설팅솔루션",
+        "specSub" : "단기 구축 프로젝트",
+        "specLink" : "https://codegv.cafe24.com/db_remote/codinglist.html",
+        "detailHTML" : "<div style='text-align:center'><img src='./assets/images/db_view_01.jpg' alt=''><br><br><br><img src='./assets/images/db_view_02.jpg' alt=''><br><br><br><img src='./assets/images/db_view_03.jpg' alt=''><br><br><br></div>"
+    },
+    {
+        "image" : "./assets/images/yessure_ban.png",
+        "specMain" : "클라우드 기반 보험 플랫폼 ‘예스슈어’ 랜딩페이지",
+        "specSub" : "단기 구축 프로젝트",
+        "specLink" : "https://yes-sure.ai/",
+        "detailHTML" : ""
+    },
+    {
+        "image" : "./assets/images/nail_ban.png",
+        "specMain" : "정보 보호 솔루션 업체 나일소프트 리뉴얼",
+        "specSub" : "단기 구축 프로젝트",
+        "specLink" : "http://www.nilesoft.co.kr/",
+        "detailHTML" : ""
+    },
+    {
+        "image" : "./assets/images/mg_ban.png",
+        "specMain" : "MG새마을금고보험 공제 리뉴얼 구축",
+        "specSub" : "VUE 구축 프로젝트",
+        "specLink" : "https://insure.kfcc.co.kr/",
+        "detailHTML" : ""
+    },
+    {
+        "image" : "./assets/images/tm_ban.png",
+        "specMain" : "SKT 멤버십 서비스내의 T 멤버십 글로벌여행 서비스 구축",
+        "specSub" : "단기 구축 프로젝트",
+        "specLink" : "#",
+        "detailHTML" : "<div style='text-align:center'><img src='./assets/images/tmap_view01.png' alt=''><br><br><br><img src='./assets/images/tmap_view02.png' alt=''><br><br><br><img src='./assets/images/tmap_view03.png' alt=''><br><br><br></div>"
+    },
+    {
+        "image" : "./assets/images/mb_wyd.png",
+        "specMain" : "롯데홈쇼핑 와이드 모바일앱",
+        "specSub" : "연간 앱 운영(서비스종료)",
+        "specLink" : "#",
+        "detailHTML" : ""
+    },
+    {
+        "image" : "./assets/images/mb_itoo.png",
+        "specMain" : "롯데홈쇼핑 아이투 모바일앱",
+        "specSub" : "연간 앱 운영(서비스종료)",
+        "specLink" : "#",
+        "detailHTML" : "<div style='text-align:center;max-width:400px;margin:0 auto;'><br><br><br><img src='./assets/images/itoo_view01.png' alt=''><br><br><br><img src='./assets/images/itoo_view02.png' alt=''><br><br><br><img src='./assets/images/itoo_view03.png' alt=''><br><br><br></div>"
+    },
+    {
+        "image" : "./assets/images/may_ban.png",
+        "specMain" : "메이블린 뉴욕 100주년 론칭 사이트",
+        "specSub" : "반응형 구축",
+        "specLink" : "#",
+        "detailHTML" : "<div style='text-align:center;'><img src='./assets/images/may_mainall.png' alt=''><br><br><br><img src='./assets/images/may_m_sub.jpg' alt=''><br><br><br></div>"
+    },
+    {
+        "image" : "./assets/images/mgame_ban.png",
+        "specMain" : "엠게임 와글 프린세스메이커 소셜네트워크게임 사이트",
+        "specSub" : "구축 프로젝트",
+        "specLink" : "#",
+        "detailHTML" : "<div style='text-align:center;'><img src='./assets/images/wagle1.jpg' alt=''><br><br><br><img src='./assets/images/wagle2.jpg' alt=''><br><br><br><img src='./assets/images/wagle3.jpg' alt=''><br><br><br></div>"
+    },
+    {
+        "image" : "./assets/images/hanhwa.jpg",
+        "specMain" : "한화생명 VIP 멤버십 반응형 사이트",
+        "specSub" : "구축 프로젝트",
+        "specLink" : "#",
+        "detailHTML" : "<div style='text-align:center;'><img src='./assets/images/hanhwa_view01.jpg' alt=''><br><br><br><img src='./assets/images/hanhwa_view02.jpg' alt=''></div>"
+    }
+]

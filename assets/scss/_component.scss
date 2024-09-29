@@ -1,0 +1,125 @@
+/* popup */
+.btn_guide_box{border:1px solid #ddd;padding:20px;color:#000;display:inline-block;}
+/* 공통 popup */
+.popup_wrap{position:fixed;top:0;left:0;width:100%;height:100%;z-index:100000;display:none;align-items: center;justify-content: center;min-width:280px;overflow:hidden;flex-wrap:wrap;
+    &.active{display:flex;
+        &.motion_end{
+            .popup_item{opacity:1;transform: translateY(0);}
+            .bg_dim{opacity:.6;}
+        }
+    }
+}
+.popup_item{
+    box-sizing: border-box;z-index:20; max-width:1280px;margin:30px auto; max-height:calc(100% - 60px); background:#fff; border-radius:8px; border:1px solid #BBBBBB; position:relative; display:flex; flex-direction: column; overflow:hidden;
+    -webkit-box-shadow: 2px 2px 14px 2px rgba(64,64,64,0.3); box-shadow: 2px 2px 14px 2px rgba(64,64,64,0.3);width:100%;opacity:0;transition:.4s; transform: translateY(-20%);
+    &.no_transition{transition:0s;opacity:1;transform:none;}
+    &.size2{
+        max-width:636px;
+    }
+    &.modal_type{
+        max-width:428px; border-radius:8px;
+    }
+    ::-webkit-scrollbar{width:0;}
+}
+.bg_dim{display:block;width:100%;height:100%;position:fixed;top:0;left:0;z-index:0;background:#000;opacity:0;transition:.5s;
+    &.no_transition{transition:0s;opacity:.6;transform:none;}
+}
+.popup_title_row{flex:0;padding:50px 120px 30px 70px; word-break: keep-all;
+    & + .popup_contents_row{padding-top:0;}
+}
+.popup_title{font-size:32px;color:#333333;font-weight:700;letter-spacing: -0.05em;line-height:1.3; font-weight:600;}
+.popup_contents_row{position:relative;overflow:hidden;overflow-y:auto;flex:1;font-size:16px;color:#333333;padding:0 0 0;
+    /* &.scroll_mode{padding-right:60px;} */
+    & + .popup_btn_row{padding-top:0;}
+    &::-webkit-scrollbar{width:0 !important;}
+    img{vertical-align: top;}
+}
+.modal_container_wrap{position:relative;overflow:hidden;overflow-y:auto;flex:1;padding:25px;}
+.modal_title_row{}
+.modal_title{font-size:24px; color:#333333; font-weight:700;}
+.modal_contents_row{margin-top:10px;}
+.modal_contents_copy{font-size:16px; color:#333333;}
+.modal_btn_row{
+    display:flex; flex-wrap:wrap; justify-content: center; align-items: center; gap:8px; margin-top:75px;
+    .btn_box{}
+}
+
+
+.touchmode {
+    .popup_contents_row{
+        &.scroll_mode{padding-right:70px;}
+    }
+}
+.popup_btn_row{flex:0;padding:0 30px 30px;display:flex;justify-content: center; position:relative; box-sizing: border-box;
+    &:after{display:block;content:'';width:calc(100% - 10px);height:30px; position:absolute;top:-30px;left:0;
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 46%, rgba(255,255,255,0) 100%);
+    }
+    &.type2{
+        flex-direction: column;gap:16px;
+    }
+}
+.touchmode{
+    .popup_btn_row{
+        &:after{
+            width:calc(100%);
+        }
+    }
+}
+
+.btn_submitbox_w{display:flex;margin:0;padding:25px; justify-content: center;
+    .btn_submitbox{margin:0 2.5px;}
+}
+
+.btn_submitbox{display:inline-block;word-break:keep-all;vertical-align:middle;box-sizing:border-box;border:0;font-size:17px; font-weight:500;text-align:center;min-width:400px; color:#fff;background:#3f4858;border-radius:100px;padding:15px 20px;
+
+    &.inline_type{flex:0;min-width:inherit;white-space: nowrap;border-radius:4px;}
+    &.small{font-size:14px;line-height:1;padding:12px}
+}
+.btn_popup_close{display:inline-block;width:30px;height:30px;position:absolute;top:55px;right:70px;
+    &:before,
+    &:after{width:42px;height:2px;display:block;content:'';position:absolute;top:50%;left:50%;background:#221E1F; margin:-1px 0 0 -21px;
+        transform: translateZ(0);-webkit-transform: translateZ(0);-ms-transform: translateZ(0);-moz-transform: translateZ(0);
+    }
+    &:before{transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);}
+    &:after{transform:rotate(-45deg);-ms-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);}
+    &.pos2{top:30px;right:30px;}
+}
+
+.popup_confirm_copy_wrap{
+    text-align: center; padding:50px 30px;
+}
+.popup_confirm_copy{font-size:17px;color:#333333; word-break: keep-all;}
+
+
+@media (max-width:1279px){
+    .popup_item{margin:0 20px;}
+    .popup_title_row{padding:20px 50px 20px 20px;}
+    .popup_title{font-size:20px;}
+    .btn_popup_close{width:22px;height:22px; top:20px;right:20px;
+        &:before,
+        &:after{width:24px;margin:-1px 0 0 -12px;}
+        &.pos2{top:20px;right:20px;}
+    }
+    .popup_contents_row{font-size:14px;padding:0;
+        &.scroll_mode {padding-right:10px;}
+    }
+    .touchmode {
+        .popup_contents_row{
+            &.scroll_mode{padding-right:20px;}
+        }
+    }
+    .popup_btn_row{padding:20px; 
+        &:after{height:20px;top:-20px;}
+        &.type2{
+            gap:10px;
+        }
+    }
+
+    .modal_title_row{}
+    .modal_title{font-size:20px;}
+    .modal_btn_row{
+        margin-top:35px;
+    }
+}
+/* // 공통 popup */
