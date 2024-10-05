@@ -833,7 +833,6 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   font-size: 0.75rem;
   line-height: 1;
   color: #a1a1a1;
-  margin-left: 1.875rem;
 }
 
 @media (max-width: 767px) {
