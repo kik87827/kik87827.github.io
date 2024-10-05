@@ -1,3 +1,44 @@
+document.addEventListener("DOMContentLoaded",()=>{
+  layoutSet();
+});
+
+/* layout */
+function layoutSet(){
+  const btnPanelMenu = document.querySelector(".btn-panel-menu");
+  const mobileMenuZone = document.querySelector(".mobile-menu-zone");
+  const btnMobileMenuClose = document.querySelector(".btn-mobile-menu-close");
+  const bodyDom = document.querySelector("body");
+  let openTimerID = 0;
+  let closeTimerID = 0;
+  let touchstart = "ontouchstart" in window;
+  btnPanelMenu.addEventListener("click",(e)=>{
+    e.preventDefault();
+    mobileMenuZone.classList.add("active");
+    if(touchstart){
+      bodyDom.classList.add("touch-dis");
+    }
+    if(openTimerID){
+      clearTimeout(openTimerID);
+    }
+    openTimerID = setTimeout(()=>{
+      mobileMenuZone.classList.add("motion");
+    },20);
+  });
+  btnMobileMenuClose.addEventListener("click",(e)=>{
+    e.preventDefault();
+    mobileMenuZone.classList.remove("motion");
+    if(touchstart){
+      bodyDom.classList.remove("touch-dis");
+    }
+    if(closeTimerID){
+      clearTimeout(closeTimerID);
+    }
+    closeTimerID = setTimeout(()=>{
+      mobileMenuZone.classList.remove("active");
+    },520);
+  });
+}
+
 /* popup */
 class DesignPopup {
     constructor (option){
@@ -110,4 +151,4 @@ class DesignPopup {
         }
       }
     }
-  }
+}

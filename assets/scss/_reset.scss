@@ -33,3 +33,4 @@ table caption {display:inline-block;width:0;height:0;overflow:hidden;line-height
 textarea{font-family: 'Spoqa';color:#000;border:1px solid #c8c8c8;-webkit-appearance: none;-moz-appearance: none;-webkit-border-radius: 0;}
 
 .hdtext{overflow: hidden;display: inline-block;position: absolute;z-index: -1;width: 1px;height: 1px;margin: 0;border: 0;font-size: 1px;line-height: 1px;clip: rect(1px, 1px, 1px, 1px);clip-path: inset(50%);}
+.touch-dis {touch-action: none; overflow: hidden; position: relative;}

@@ -171,12 +171,6 @@ textarea {
           clip-path: inset(50%);
 }
 
-.touch-dis {
-  touch-action: none;
-  overflow: hidden;
-  position: relative;
-}
-
 @font-face {
   font-family: "Spoqa";
   src: url("./webfont/SpoqaHanSansNeo-Bold.eot");
@@ -552,7 +546,6 @@ textarea {
   }
 }
 /* // 공통 popup */
-/* layout */
 html:not(.touchmode) ::-webkit-scrollbar {
   width: 10px;
 }
@@ -602,7 +595,6 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 }
 .toplogo-link img {
   vertical-align: top;
-  max-width: 15rem;
 }
 
 .toplogo-text {
@@ -611,112 +603,6 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   opacity: 0.6;
   line-height: 1;
   margin-left: 0.625rem;
-}
-
-.btn-panel-menu {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  width: 3.4375rem;
-  height: 3.4375rem;
-  z-index: 5;
-  position: absolute;
-  top: 0;
-  right: 0;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.btn-panel-menu:before, .btn-panel-menu:after {
-  display: block;
-  content: "";
-  width: 20px;
-  height: 2px;
-  background: #000;
-  border-radius: 2px;
-}
-
-.btn-panel-menu-ico {
-  display: block;
-  width: 1.25rem;
-  height: 0.125rem;
-  background: #000;
-  border-radius: 0.125rem;
-  margin: 0.3125rem 0;
-}
-
-.mobile-menu-zone {
-  display: none;
-  z-index: 100;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-.mobile-menu-zone:before {
-  display: block;
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  opacity: 0;
-  transition: 0.5s;
-}
-.mobile-menu-zone.active {
-  display: block;
-}
-.mobile-menu-zone.active.motion:before {
-  opacity: 0.8;
-}
-.mobile-menu-zone.active.motion .mobile-menu-wrap {
-  right: 0;
-}
-.mobile-menu-zone.active.motion .btn-mobile-menu-close {
-  opacity: 1;
-}
-
-.mobile-menu-wrap {
-  display: flex;
-  flex-direction: column;
-  width: 15.4375rem;
-  height: 100%;
-  transition: 0.5s;
-  position: absolute;
-  top: 0;
-  right: -15.4375rem;
-  background: #fff;
-}
-
-.btn-mobile-menu-close {
-  display: block;
-  width: 3.4375rem;
-  height: 3.4375rem;
-  opacity: 0;
-  transition: 0.5s;
-  position: absolute;
-  top: 0;
-  left: -3.4375rem;
-  background: url("../images/btn_totalclose.png") no-repeat 0 0/100% auto;
-}
-
-.mobile-menu-inner {
-  position: relative;
-  overflow-y: auto;
-  flex: 1;
-}
-
-.mobile-menu {
-  display: block;
-  color: #000;
-  font-size: 0.8125rem;
-  padding: 1.375rem 1.875rem 1.375rem 1.875rem;
-  line-height: 1;
-  position: relative;
-  font-family: "Digital Desolation", sans-serif;
 }
 
 .header-main-cols {
@@ -836,29 +722,6 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   margin-left: 1.875rem;
 }
 
-@media (max-width: 767px) {
-  .header-inner {
-    height: 3.4375rem;
-    padding: 0 3.4375rem 0 1.25rem;
-  }
-  .toplogo-link {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .toplogo-link img {
-    max-width: 11.25rem;
-  }
-  .toplogo-text {
-    display: none;
-  }
-  .header-main-cols {
-    display: none;
-  }
-  .btn-panel-menu {
-    display: flex;
-  }
-}
 /* content */
 .profile-item {
   display: flex;
