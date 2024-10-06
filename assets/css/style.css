@@ -857,6 +857,25 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   .btn-panel-menu {
     display: flex;
   }
+  .middle-templete {
+    display: block;
+  }
+  .middle-left-item {
+    padding: 1.875rem 0 0 0;
+  }
+  .middle-left-title {
+    font-size: 0.75rem;
+  }
+  .middle-menu-list {
+    display: flex;
+    gap: 1.25rem;
+  }
+  .middle-menu {
+    font-size: 0.875rem;
+  }
+  .middle-right-cols {
+    padding: 1.875rem 0 3.125rem;
+  }
 }
 /* content */
 .profile-item {
@@ -1016,8 +1035,8 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 
 .skill-ico {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   background: url("../images/icon_skills.png") no-repeat 0 0/100% auto;
 }
 .skill-ico.html-ico {
@@ -1260,4 +1279,118 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 
 .gallery-spec-sub-wrap {
   margin-top: 0.3125rem;
+}
+
+@media (max-width: 767px) {
+  .profile-thum-cols {
+    flex-basis: 6.25rem;
+    height: 6.25rem;
+  }
+  .profile-spec-cols {
+    margin-left: 0.625rem;
+  }
+  .profile-main-name {
+    font-size: 1rem;
+  }
+  .profile-icon {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    top: 0.0625rem;
+  }
+  .profile-main-unit {
+    font-size: 0.75rem;
+  }
+  .profile-detail-row {
+    margin-top: 1.25rem;
+    font-size: 0.8125rem;
+  }
+  .design-obj-wrap {
+    margin-top: 1.25rem;
+  }
+  .design-obj {
+    font-size: 9.375rem;
+  }
+  .middle-item.skills-wrap {
+    margin-top: 3.75rem;
+  }
+  .middle-item.career-wrap {
+    margin-top: 3.75rem;
+  }
+  .skill-ico {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+  .skill-data-th {
+    padding-right: 0.625rem;
+  }
+  .data-chart-item {
+    height: 2.5rem;
+    border-radius: 0.3125rem;
+  }
+  .data-chart-current {
+    border-radius: 0.3125rem;
+    padding: 0 0.625rem;
+  }
+  .data-chart-current-text {
+    font-size: 0.8125rem;
+  }
+  .timeline-list > li {
+    padding-left: 1.875rem;
+    margin-bottom: 1.875rem;
+  }
+  .timeline-list > li:last-of-type:before {
+    width: 1.875rem;
+    height: calc(100% - 1.875rem);
+    top: 1.875rem;
+    left: 0;
+  }
+  .timeline-list > li:last-of-type:after {
+    top: 1.8125rem;
+  }
+  .timeline-list > li:before {
+    height: calc(100% - 1.5625rem);
+    top: 1.5625rem;
+    left: 0;
+  }
+  .timeline-list > li:after {
+    top: 1.875rem;
+  }
+  .timeline-item {
+    display: block;
+  }
+  .timeline-thum-row {
+    width: 9.375rem;
+    height: 4.6875rem;
+    border-radius: 0.5rem;
+  }
+  .timeline-spec-row {
+    margin: 0.9375rem 0 0 0;
+  }
+  .timeline-spec-title-group {
+    display: block;
+  }
+  .timeline-spec-title {
+    font-size: 0.875rem;
+  }
+  .timeline-tail-group {
+    margin-top: 0.3125rem;
+  }
+  .timeline-spec-while {
+    margin: 0.3125rem 0 0 0;
+    font-size: 0.8125rem;
+  }
+  .timeline-spec-level {
+    font-size: 0.8125rem;
+    margin: 0.3125rem 0 0 0;
+  }
+  .timeline-spec-tail {
+    font-size: 0.8125rem;
+  }
+  .timeline-project-list {
+    font-size: 0.8125rem;
+  }
+  .timeline-project-title {
+    font-size: 0.8125rem;
+  }
 }/*# sourceMappingURL=style.css.map */

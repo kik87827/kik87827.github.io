@@ -294,6 +294,16 @@ html:not(.touchmode) {
     .toplogo-text{display:none;}
     .header-main-cols{display:none;}
     .btn-panel-menu{display:flex;}
+    .middle-templete{display:block;}
+    .middle-left-item {
+        padding: rem(30) 0 0 0;
+    }
+    .middle-left-title {
+        font-size: rem(12);
+    }
+    .middle-menu-list{display:flex; gap:rem(20)}
+    .middle-menu{font-size:rem(14)}
+    .middle-right-cols{padding:rem(30) 0 rem(50)}
 }
 
 
@@ -495,8 +505,8 @@ html:not(.touchmode) {
 
 .skill-ico {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: rem(50);
+    height: rem(50);
     background: url("../images/icon_skills.png") no-repeat 0 0/100% auto;
 
     &.html-ico {
@@ -658,3 +668,114 @@ html:not(.touchmode) {
     img{vertical-align: top;max-width:100%;}
 }
 .gallery-spec-sub-wrap{margin-top:rem(5);}
+
+
+@media (max-width:$phones){
+    
+    .profile-thum-cols {
+        flex-basis : rem(100);
+        height: rem(100);
+    }
+
+    .profile-spec-cols {
+        margin-left: rem(10);
+    }
+
+    .profile-main-name {
+        font-size: rem(16);
+    }
+    .profile-icon{width:rem(16); height:rem(16); position:relative;top: rem(1)}
+    .profile-main-unit{font-size:rem(12)}
+
+    .profile-detail-row {
+        margin-top: rem(20);
+        font-size: rem(13);
+    }
+    .design-obj-wrap{margin-top:rem(20)}
+    .design-obj {
+        font-size: rem(150);
+    }
+
+    
+    .middle-item {
+        &.skills-wrap {
+            margin-top: rem(60)
+        }
+
+        &.career-wrap {
+            margin-top: rem(60)
+        }
+    }
+    .skill-ico {width:rem(30); height:rem(30);}
+
+    .skill-data-th {
+        padding-right: rem(10);
+    }
+
+        
+    .data-chart-item {
+        height: rem(40);
+        border-radius: rem(5);
+    }
+    
+    .data-chart-current {
+        border-radius: rem(5);
+        padding: 0 rem(10);
+    }
+    .data-chart-current-text{font-size:rem(13)}
+        
+
+    .timeline-list {
+        >li {
+            padding-left:rem(30);
+            margin-bottom:rem(30);
+            
+            &:last-of-type {
+                &:before{
+                    width:rem(30);
+                    height:calc(100% - rem(30));
+                    top:rem(30);
+                    left:0;
+                }
+                &:after {
+                    top:rem(29);
+                }
+            }
+            &:before{
+                height:calc(100% - rem(25));
+                top:rem(25);
+                left:0;
+            }
+            &:after {
+                top:rem(30);
+            }
+        }
+    }
+
+    .timeline-item {display:block;}
+
+    .timeline-thum-row {
+        width: rem(150);
+        height: rem(75);
+        border-radius: rem(8);
+        >img {}
+    }
+
+    .timeline-spec-row {margin:rem(15) 0 0 0;}
+    .timeline-spec-title-group{display:block;}
+    .timeline-spec-title {font-size:rem(14);}
+
+    .timeline-tail-group {margin-top:rem(5)}
+
+    .timeline-spec-while {margin: rem(5) 0 0 0;font-size:rem(13);}
+
+    .timeline-spec-level {font-size:rem(13);margin: rem(5) 0 0 0;}
+
+    .timeline-spec-tail {font-size:rem(13)}
+
+    .timeline-project-list {
+        font-size:rem(13);
+    }
+
+    .timeline-project-title{font-size:rem(13);}
+}
