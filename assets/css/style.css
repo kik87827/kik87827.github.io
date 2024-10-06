@@ -859,6 +859,7 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   }
   .middle-templete {
     display: block;
+    padding: 0 1.25rem;
   }
   .middle-left-item {
     padding: 1.875rem 0 0 0;
