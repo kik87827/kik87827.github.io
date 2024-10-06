@@ -1224,10 +1224,10 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   display: flex;
   flex-wrap: wrap;
   gap: 1.875rem 1.25rem;
-  margin-right: -20px;
+  margin-right: -1.25rem;
 }
 .gallery-list > li {
-  flex: 0 0 calc(25% - 20px);
+  flex: 0 0 calc(25% - 1.25rem);
 }
 .gallery-item {
   display: block;
@@ -1241,10 +1241,19 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   border-radius: 0.625rem;
   position: relative;
   overflow: hidden;
+  padding-bottom: 62.5%;
 }
 .gallery-thum-row > img {
   width: 100%;
   vertical-align: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 0;
+     object-position: 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
 
 .gallery-spec-row {
@@ -1393,5 +1402,20 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   }
   .timeline-project-title {
     font-size: 0.8125rem;
+  }
+  .gallery-list > li {
+    flex: 0 0 calc(50% - 1.25rem);
+  }
+  .gallery-thum-row {
+    border-radius: 0.3125rem;
+  }
+  .gallery-spec-main {
+    font-size: 1rem;
+  }
+  .gallery-spec-sub {
+    font-size: 0.8125rem;
+  }
+  .gallery-spec-link {
+    max-width: 1.25rem;
   }
 }/*# sourceMappingURL=style.css.map */
