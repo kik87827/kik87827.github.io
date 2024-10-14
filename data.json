@@ -70,6 +70,13 @@
         "detailHTML" : "<div style='text-align:center;'><img src='./assets/images/may_mainall.png' alt=''><br><br><br><img src='./assets/images/may_m_sub.jpg' alt=''><br><br><br></div>"
     },
     {
+        "image" : "./assets/images/fubon_ban.png",
+        "specMain" : "푸본현대생명",
+        "specSub" : "연간 운영 프로젝트",
+        "specLink" : "https://www.fubonhyundai.com/",
+        "detailHTML" : "<div style='text-align:center;'><img src='./assets/images/fubon01.jpg' alt=''><br><br><br><img src='./assets/images/fubon_m01.jpg' alt=''><br><br><br><img src='./assets/images/fubon02.jpg' alt=''><br><br><br><img src='./assets/images/fubon_m02.jpg' alt=''><br><br><br></div>"
+    },
+    {
         "image" : "./assets/images/mgame_ban.png",
         "specMain" : "엠게임 와글 프린세스메이커 소셜네트워크게임 사이트",
         "specSub" : "구축 프로젝트",
