@@ -56,6 +56,13 @@
         "detailHTML" : ""
     },
     {
+        "image" : "./assets/images/mainbiz_ban.png",
+        "specMain" : "메인비즈 반응형 구축",
+        "specSub" : "접근성 마크 획득",
+        "specLink" : "https://www.smes.go.kr/mainbiz/main.do",
+        "detailHTML" : "<div style='text-align:center;'><img src='./assets/images/mainbiz_pc_main.jpg' alt=''><br><br><br><img src='./assets/images/mainbiz_pc_sub.jpg' alt=''><br><br><br><img src='./assets/images/mainbiz_mobile_main.jpg' alt=''><br><br><br><img src='./assets/images/mainbiz_mobile_sub.jpg' alt=''><br><br><br></div>"
+    },
+    {
         "image" : "./assets/images/mb_itoo.png",
         "specMain" : "롯데홈쇼핑 아이투 모바일앱",
         "specSub" : "연간 앱 운영(서비스종료)",
