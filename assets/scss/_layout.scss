@@ -1103,6 +1103,35 @@ html:not(.touchmode) {
     }
   }
 }
+
+.vertical-code-wrap {
+  position: relative;
+  overflow: hidden;
+  & > .textarea {
+    background: #f3f4f5;
+    border: 0;
+    border-top: 5px solid #e7e8e9;
+    padding: 40px 30px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+  }
+}
+
+.btn-copyitem {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: #fff url("../images/btn_copy.svg") no-repeat 50% 50%/15px auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.1);
+  &.active {
+    background-image: url("../images/btn_copy_active.svg");
+  }
+}
+
 @media (max-width: $phones) {
   .middle-right-title-row {
     margin-bottom: rem(40);
@@ -1141,5 +1170,26 @@ html:not(.touchmode) {
     margin-bottom: rem(7);
   }
   .block-slice-cont {
+  }
+
+  .vertical-code-wrap {
+    & > .textarea {
+      border-top-width: 3px;
+      padding: 45px 35px 35px;
+    }
+  }
+
+  .btn-copyitem {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #fff url("../images/btn_copy.svg") no-repeat 50% 50%/15px auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.1);
+    &.active {
+      background-image: url("../images/btn_copy_active.svg");
+    }
   }
 }

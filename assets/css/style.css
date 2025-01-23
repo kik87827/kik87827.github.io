@@ -1518,6 +1518,34 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   vertical-align: middle;
 }
 
+.vertical-code-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.vertical-code-wrap > .textarea {
+  background: #f3f4f5;
+  border: 0;
+  border-top: 5px solid #e7e8e9;
+  padding: 40px 30px 25px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.btn-copyitem {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: #fff url("../images/btn_copy.svg") no-repeat 50% 50%/15px auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.1);
+}
+.btn-copyitem.active {
+  background-image: url("../images/btn_copy_active.svg");
+}
+
 @media (max-width: 767px) {
   .middle-right-title-row {
     margin-bottom: 2.5rem;
@@ -1554,5 +1582,22 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 0.4375rem;
+  }
+  .vertical-code-wrap > .textarea {
+    border-top-width: 3px;
+    padding: 45px 35px 35px;
+  }
+  .btn-copyitem {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #fff url("../images/btn_copy.svg") no-repeat 50% 50%/15px auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  .btn-copyitem.active {
+    background-image: url("../images/btn_copy_active.svg");
   }
 }/*# sourceMappingURL=style.css.map */
