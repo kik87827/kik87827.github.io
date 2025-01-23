@@ -990,6 +990,7 @@ html:not(.touchmode) {
 }
 .middle-right-title-count {
   margin-top: rem(5);
+  font-size: rem(16);
 }
 .current-count {
 }
@@ -1109,7 +1110,9 @@ html:not(.touchmode) {
   .middle-right-title {
     font-size: rem(20);
   }
-
+  .middle-right-title-count {
+    font-size: rem(14);
+  }
   .block-title {
     font-size: rem(20);
   }
