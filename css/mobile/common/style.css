@@ -19,14 +19,69 @@ body {
   font-weight: 400;
 }
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, address, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, textarea, table, caption, tbody, tfoot, thead, tr, th, td, header, footer, nav, menu, section, article, aside, main, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+textarea,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+header,
+footer,
+nav,
+menu,
+section,
+article,
+aside,
+main,
+video {
   margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline;
 }
 
-header, footer, section, article, aside, nav, main, details, menu, figure, figcaption, video {
+header,
+footer,
+section,
+article,
+aside,
+nav,
+main,
+details,
+menu,
+figure,
+figcaption,
+video {
   display: block;
 }
 
@@ -37,14 +92,17 @@ table {
   word-break: break-all;
 }
 
-table th, table td {
+table th,
+table td {
   text-align: center;
   vertical-align: middle;
   font-weight: normal;
   font-family: "Spoqa";
 }
 
-ol, ul, li {
+ol,
+ul,
+li {
   list-style: none outside none;
 }
 
@@ -53,7 +111,8 @@ a {
   color: #333;
 }
 
-a:hover, a:visited {
+a:hover,
+a:visited {
   text-decoration: none;
 }
 
@@ -84,7 +143,10 @@ img {
   max-width: 100%;
 }
 
-form input, form select, form label, form img {
+form input,
+form select,
+form label,
+form img {
   vertical-align: middle;
 }
 
@@ -96,7 +158,12 @@ address {
   font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: normal;
 }
 
@@ -105,12 +172,16 @@ iframe {
   padding: 0;
 }
 
-audio, canvas, progress, video {
+audio,
+canvas,
+progress,
+video {
   display: inline-block;
   vertical-align: baseline;
 }
 
-input[type=text], input[type=password] {
+input[type="text"],
+input[type="password"] {
   font-family: "Spoqa";
   color: #000;
   border: 1px solid #c8c8c8;
@@ -120,10 +191,10 @@ input[type=text], input[type=password] {
   border-radius: 0;
 }
 
-input[type=search],
-input[type=tel],
-input[type=number],
-input[type=password] {
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+input[type="password"] {
   border-radius: 0;
   font-family: "Spoqa";
   color: #5d5d5d;
@@ -168,60 +239,88 @@ textarea {
   line-height: 1px;
   clip: rect(1px, 1px, 1px, 1px);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
 }
 
 @font-face {
   font-family: "Spoqa";
   src: url("./webfont/SpoqaHanSansNeo-Bold.eot");
-  src: url("./webfont/SpoqaHanSansNeo-Bold.eot?#iefix") format("embedded-opentype"), url("./webfont/SpoqaHanSansNeo-Bold.woff2") format("woff2"), url("./webfont/SpoqaHanSansNeo-Bold.woff") format("woff"), url("./webfont/SpoqaHanSansNeo-Bold.ttf") format("truetype");
+  src: url("./webfont/SpoqaHanSansNeo-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./webfont/SpoqaHanSansNeo-Bold.woff2") format("woff2"),
+    url("./webfont/SpoqaHanSansNeo-Bold.woff") format("woff"),
+    url("./webfont/SpoqaHanSansNeo-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Spoqa";
   src: url("./webfont/SpoqaHanSansNeo-Regular.eot");
-  src: url("./webfont/SpoqaHanSansNeo-Regular.eot?#iefix") format("embedded-opentype"), url("./webfont/SpoqaHanSansNeo-Regular.woff2") format("woff2"), url("./webfont/SpoqaHanSansNeo-Regular.woff") format("woff"), url("./webfont/SpoqaHanSansNeo-Regular.ttf") format("truetype");
+  src: url("./webfont/SpoqaHanSansNeo-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./webfont/SpoqaHanSansNeo-Regular.woff2") format("woff2"),
+    url("./webfont/SpoqaHanSansNeo-Regular.woff") format("woff"),
+    url("./webfont/SpoqaHanSansNeo-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Spoqa";
   src: url("./webfont/SpoqaHanSansNeo-Thin.eot");
-  src: url("./webfont/SpoqaHanSansNeo-Thin.eot?#iefix") format("embedded-opentype"), url("./webfont/SpoqaHanSansNeo-Thin.woff2") format("woff2"), url("./webfont/SpoqaHanSansNeo-Thin.woff") format("woff"), url("./webfont/SpoqaHanSansNeo-Thin.ttf") format("truetype");
+  src: url("./webfont/SpoqaHanSansNeo-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./webfont/SpoqaHanSansNeo-Thin.woff2") format("woff2"),
+    url("./webfont/SpoqaHanSansNeo-Thin.woff") format("woff"),
+    url("./webfont/SpoqaHanSansNeo-Thin.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "Spoqa";
   src: url("./webfont/SpoqaHanSansNeo-Black.eot");
-  src: url("./webfont/SpoqaHanSansNeo-Black.eot?#iefix") format("embedded-opentype"), url("./webfont/SpoqaHanSansNeo-Black.woff2") format("woff2"), url("./webfont/SpoqaHanSansNeo-Black.woff") format("woff"), url("./webfont/SpoqaHanSansNeo-Black.ttf") format("truetype");
+  src: url("./webfont/SpoqaHanSansNeo-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./webfont/SpoqaHanSansNeo-Black.woff2") format("woff2"),
+    url("./webfont/SpoqaHanSansNeo-Black.woff") format("woff"),
+    url("./webfont/SpoqaHanSansNeo-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 @font-face {
   font-family: "Spoqa";
   src: url("./webfont/SpoqaHanSansNeo-Light.eot");
-  src: url("./webfont/SpoqaHanSansNeo-Light.eot?#iefix") format("embedded-opentype"), url("./webfont/SpoqaHanSansNeo-Light.woff2") format("woff2"), url("./webfont/SpoqaHanSansNeo-Light.woff") format("woff"), url("./webfont/SpoqaHanSansNeo-Light.ttf") format("truetype");
+  src: url("./webfont/SpoqaHanSansNeo-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./webfont/SpoqaHanSansNeo-Light.woff2") format("woff2"),
+    url("./webfont/SpoqaHanSansNeo-Light.woff") format("woff"),
+    url("./webfont/SpoqaHanSansNeo-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Spoqa";
   src: url("./webfont/SpoqaHanSansNeo-DemiLight.eot");
-  src: url("./webfont/SpoqaHanSansNeo-DemiLight.eot?#iefix") format("embedded-opentype"), url("./webfont/SpoqaHanSansNeo-DemiLight.woff2") format("woff2"), url("./webfont/SpoqaHanSansNeo-DemiLight.woff") format("woff"), url("./webfont/SpoqaHanSansNeo-DemiLight.ttf") format("truetype");
+  src: url("./webfont/SpoqaHanSansNeo-DemiLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./webfont/SpoqaHanSansNeo-DemiLight.woff2") format("woff2"),
+    url("./webfont/SpoqaHanSansNeo-DemiLight.woff") format("woff"),
+    url("./webfont/SpoqaHanSansNeo-DemiLight.ttf") format("truetype");
   font-weight: 350;
   font-style: normal;
 }
 @font-face {
   font-family: "Spoqa";
   src: url("./webfont/SpoqaHanSansNeo-Medium.eot");
-  src: url("./webfont/SpoqaHanSansNeo-Medium.eot?#iefix") format("embedded-opentype"), url("./webfont/SpoqaHanSansNeo-Medium.woff2") format("woff2"), url("./webfont/SpoqaHanSansNeo-Medium.woff") format("woff"), url("./webfont/SpoqaHanSansNeo-Medium.ttf") format("truetype");
+  src: url("./webfont/SpoqaHanSansNeo-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./webfont/SpoqaHanSansNeo-Medium.woff2") format("woff2"),
+    url("./webfont/SpoqaHanSansNeo-Medium.woff") format("woff"),
+    url("./webfont/SpoqaHanSansNeo-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 /* popup */
-.btn_guide_box {
+.btn_Component_box {
   border: 1px solid #ddd;
   padding: 20px;
   color: #000;
@@ -262,7 +361,7 @@ textarea {
   max-height: calc(100% - 60px);
   background: #fff;
   border-radius: 8px;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -397,7 +496,12 @@ textarea {
   top: -30px;
   left: 0;
   background: rgb(255, 255, 255);
-  background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 46%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 0%,
+    rgb(255, 255, 255) 46%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 .popup_btn_row.type2 {
   flex-direction: column;
@@ -453,7 +557,8 @@ textarea {
   top: 55px;
   right: 70px;
 }
-.btn_popup_close:before, .btn_popup_close:after {
+.btn_popup_close:before,
+.btn_popup_close:after {
   width: 42px;
   height: 2px;
   display: block;
@@ -461,7 +566,7 @@ textarea {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #221E1F;
+  background: #221e1f;
   margin: -1px 0 0 -21px;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
@@ -510,7 +615,8 @@ textarea {
     top: 20px;
     right: 20px;
   }
-  .btn_popup_close:before, .btn_popup_close:after {
+  .btn_popup_close:before,
+  .btn_popup_close:after {
     width: 24px;
     margin: -1px 0 0 -12px;
   }
@@ -737,9 +843,9 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 }
 .profile-thum-cols img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: 100% 100%;
-     object-position: 100% 100%;
+  object-position: 100% 100%;
   position: relative;
   width: 100%;
   height: 100%;
@@ -1124,4 +1230,4 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 
 .gallery-spec-sub-wrap {
   margin-top: 0.3125rem;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

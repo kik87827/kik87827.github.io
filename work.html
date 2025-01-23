@@ -1,68 +1,84 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
     <script src="./assets/js/ui.js"></script>
-    <title>INKEY BINDER</title>
-</head>
-<body>
+    <title>UIK</title>
+  </head>
+  <body>
     <div id="app" class="page-wrap">
-        <header class="header-wrap">
-            <div class="header-inner">
-                <h1 class="toplogo"><a href="#" class="toplogo-link"><img src="./assets/images/toplogo2x2.png" alt="INKEY BINDER"><span class="toplogo-text">Frontend Developer</span></a></h1>
-                <div class="header-main-cols">
-                    <nav class="nav-wrap">
-                        <ul class="nav-list">
-                            <li><a href="index.html" class="nav-item">ABOUT</a></li>
-                            <li><a href="work.html" class="nav-item active">WORK</a></li>
-                            <!-- <li><a href="#" class="nav-item">STUDY</a></li> -->
-                        </ul>
-                    </nav>
-                   <!--  <div class="util-item-wrap">
-                        <ul class="util-item-list">
-                            <li><span class="util-item"><img src="./assets/images/vue_logo.png" alt="v"></span></li>
-                        </ul>
-                    </div> -->
-                </div>
-                <a href="javascript:void(0)" class="btn-panel-menu">
-                    <span class="btn-panel-menu-ico"></span>
-                    <span class="hdtext">메인 메뉴 열기</span>
-                </a>
-                <!-- mobile menu -->
-                <div class="mobile-menu-zone">
-                    <div class="mobile-menu-wrap">
-                        <div class="mobile-menu-inner">
-                            <ul class="mobile-menu-list">
-                                <li><a href="index.html" class="mobile-menu">ABOUT</a></li>
-                                <li><a href="work.html" class="mobile-menu">WORK</a></li>
-                            </ul>
-                        </div>
-                        <a href="javascript:void(0)" class="btn-mobile-menu-close"><span class="hdtext">메인 메뉴 닫기</span></a>
-                    </div>
-                </div>
-                <!-- // mobile menu -->
+      <header class="header-wrap">
+        <div class="header-inner">
+          <h1 class="toplogo">
+            <a href="#" class="toplogo-link"
+              ><img src="./assets/images/toplogo_uik_2x2.png" alt="UIK" /><span
+                class="toplogo-text"
+                >Frontend Developer</span
+              ></a
+            >
+          </h1>
+          <div class="header-main-cols">
+            <nav class="nav-wrap">
+              <ul class="nav-list">
+                <li><a href="index.html" class="nav-item">ABOUT</a></li>
+                <li><a href="work.html" class="nav-item active">WORK</a></li>
+                <li><a href="Component.html" class="nav-item">COMPONENT</a></li>
+                <!-- <li><a href="#" class="nav-item">STUDY</a></li> -->
+              </ul>
+            </nav>
+            <div class="util-item-wrap">
+              <ul class="util-item-list">
+                <li>
+                  <span class="util-item"
+                    ><img src="./assets/images/vue_logo.png" alt="v"
+                  /></span>
+                </li>
+              </ul>
             </div>
-        </header>
-        <section class="middle-wrap">
-            <div class="middle-templete">
-                <div class="middle-left-cols">
-                    <div class="middle-left-item">
-                        <h2 class="middle-left-title">WORK</h2>
-                        <ul class="middle-menu-list">
-                            <li><a href="#goItem01" class="middle-menu active">PORTFOLIO</a></li>
-                            <!-- <li><a href="#goItem02" class="middle-menu">STUDY</a></li>
+          </div>
+          <a href="javascript:void(0)" class="btn-panel-menu">
+            <span class="btn-panel-menu-ico"></span>
+            <span class="hdtext">메인 메뉴 열기</span>
+          </a>
+          <!-- mobile menu -->
+          <div class="mobile-menu-zone">
+            <div class="mobile-menu-wrap">
+              <div class="mobile-menu-inner">
+                <ul class="mobile-menu-list">
+                  <li><a href="index.html" class="mobile-menu">ABOUT</a></li>
+                  <li><a href="work.html" class="mobile-menu">WORK</a></li>
+                </ul>
+              </div>
+              <a href="javascript:void(0)" class="btn-mobile-menu-close"
+                ><span class="hdtext">메인 메뉴 닫기</span></a
+              >
+            </div>
+          </div>
+          <!-- // mobile menu -->
+        </div>
+      </header>
+      <section class="middle-wrap">
+        <div class="middle-templete">
+          <div class="middle-left-cols">
+            <div class="middle-left-item">
+              <h2 class="middle-left-title">WORK</h2>
+              <ul class="middle-menu-list">
+                <li>
+                  <a href="#goItem01" class="middle-menu active">PORTFOLIO</a>
+                </li>
+                <!-- <li><a href="#goItem02" class="middle-menu">STUDY</a></li>
                             <li><a href="#goItem03" class="middle-menu"></a></li> -->
-                        </ul>
-                    </div>
-                </div>
-                <div class="middle-right-cols">
-                    <div class="middle-right-content">
-                        <div class="gallery-wrap">
-                            <ul class="gallery-list" id="portfolio_list">
-                               <!--  <li>
+              </ul>
+            </div>
+          </div>
+          <div class="middle-right-cols">
+            <div class="middle-right-content">
+              <div class="gallery-wrap">
+                <ul class="gallery-list" id="portfolio_list">
+                  <!--  <li>
                                     <a href="#" class="gallery-item">
                                         <div class="gallery-thum-row"><img src="./assets/images/mb_ban.png" alt=""></div>
                                         <div class="gallery-spec-row">
@@ -152,62 +168,59 @@
                                         </div>
                                     </a>
                                 </li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                </ul>
+              </div>
             </div>
-        </section>
-        <footer class="footer-wrap">
-            <div class="footer-inner">
-                <p class="footer-copy">Copyright (c) INKEY BINDER. All rights reserved</p>
-            </div>
-        </footer>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-wrap">
+        <div class="footer-inner">
+          <p class="footer-copy">Copyright (c) UIK. All rights reserved</p>
+        </div>
+      </footer>
 
-        <!-- popup -->
-		<div class="popup_wrap" id="viewPopup">
-			<div class="bg_dim"></div>
-			<div class="popup_item">
-				<div class="popup_contents_row">
-					<div class="popup_contents_inner">
-						<div class="img_award_view_wrap" id="img_view_wrap">
-							<!-- <img src="./images/img_awards_item.jpg" alt=""> -->
-                            내용이 들어갑니다.
-						</div>
-					</div>
-				</div>
-				<!-- <div class="popup_btn_row">
+      <!-- popup -->
+      <div class="popup_wrap" id="viewPopup">
+        <div class="bg_dim"></div>
+        <div class="popup_item">
+          <div class="popup_contents_row">
+            <div class="popup_contents_inner">
+              <div class="img_award_view_wrap" id="img_view_wrap">
+                <!-- <img src="./images/img_awards_item.jpg" alt=""> -->
+                내용이 들어갑니다.
+              </div>
+            </div>
+          </div>
+          <!-- <div class="popup_btn_row">
                     <a href="#" class="btn_box close_trigger"><span class="btn_box_text">저장</span></a>
                 </div> -->
-				<a href="javascript:;" class="btn_popup_close pos2"><span class="hdtext">팝업 닫기</span></a>
-			</div>
-		</div>
-		<!-- // popup -->
+          <a href="javascript:;" class="btn_popup_close pos2"
+            ><span class="hdtext">팝업 닫기</span></a
+          >
+        </div>
+      </div>
+      <!-- // popup -->
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          // 인스턴스 선언
+          let viewPopup = new DesignPopup({
+            selector: "#viewPopup",
+            beforeCallback() {},
+            callback() {},
+            closeCallback() {},
+          });
 
-
-                // 인스턴스 선언
-				let viewPopup = new DesignPopup({
-					selector: "#viewPopup",
-					beforeCallback() {
-
-					},
-					callback() {
-
-					},
-					closeCallback() {}
-				});
-                
-                // JSON 파일 가져오기
-                fetch("data.json").then(result => result.json())
-                .then(resultFilter => {
-                    let portfolio_list = document.querySelector("#portfolio_list");
-                    let gallery_item = null;
-                    let innerHTML = "";
-                    resultFilter.forEach((data)=>{
-                        innerHTML += `
+          // JSON 파일 가져오기
+          fetch("data.json")
+            .then((result) => result.json())
+            .then((resultFilter) => {
+              let portfolio_list = document.querySelector("#portfolio_list");
+              let gallery_item = null;
+              let innerHTML = "";
+              resultFilter.forEach((data) => {
+                innerHTML += `
                             <li>
                                 <div class="gallery-item">
                                     <a href="#" class="gallery-thum-row" data-view ="${data.detailHTML}"><img src="${data.image}" alt=""></a>
@@ -222,37 +235,39 @@
                                     </div>
                                 </div>
                             </li>
-                        `
-                    });
-                    portfolio_list.innerHTML = innerHTML;
-                    
-                    gallery_item = document.querySelectorAll(".gallery-item");
+                        `;
+              });
+              portfolio_list.innerHTML = innerHTML;
 
-                    gallery_item.forEach((dom)=>{
-                        let thisDom = dom;
-                        let thisThumDom = thisDom.querySelector(".gallery-thum-row");
-                        let thisLinkDom = thisDom.querySelector(".gallery-spec-link");
-                        
-                        if(thisLinkDom.getAttribute("href") === "#"){
-                            thisLinkDom.style.display = "none";
-                        }
-                        
-                        thisThumDom.addEventListener("click",(e)=>{
-                            e.preventDefault();
-                            let img_view_wrap = document.querySelector("#img_view_wrap");
-                            let viewData = e.currentTarget.dataset.view;
-                            if(viewData === ""){return;}
-                            img_view_wrap.innerHTML = '';
-                            img_view_wrap.innerHTML = e.currentTarget.dataset.view;
-                            viewPopup.popupShow(); // show
-                        });
-                    });
-                })
-                .catch(error => {
-                    console.log('Error', error);
+              gallery_item = document.querySelectorAll(".gallery-item");
+
+              gallery_item.forEach((dom) => {
+                let thisDom = dom;
+                let thisThumDom = thisDom.querySelector(".gallery-thum-row");
+                let thisLinkDom = thisDom.querySelector(".gallery-spec-link");
+
+                if (thisLinkDom.getAttribute("href") === "#") {
+                  thisLinkDom.style.display = "none";
+                }
+
+                thisThumDom.addEventListener("click", (e) => {
+                  e.preventDefault();
+                  let img_view_wrap = document.querySelector("#img_view_wrap");
+                  let viewData = e.currentTarget.dataset.view;
+                  if (viewData === "") {
+                    return;
+                  }
+                  img_view_wrap.innerHTML = "";
+                  img_view_wrap.innerHTML = e.currentTarget.dataset.view;
+                  viewPopup.popupShow(); // show
                 });
+              });
+            })
+            .catch((error) => {
+              console.log("Error", error);
             });
-        </script>
+        });
+      </script>
     </div>
-</body>
+  </body>
 </html>

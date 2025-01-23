@@ -227,7 +227,7 @@ textarea {
   font-style: normal;
 }
 /* popup */
-.btn_guide_box {
+.btn_Component_box {
   border: 1px solid #ddd;
   padding: 20px;
   color: #000;
@@ -268,7 +268,7 @@ textarea {
   max-height: calc(100% - 60px);
   background: #fff;
   border-radius: 8px;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -467,7 +467,7 @@ textarea {
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #221E1F;
+  background: #221e1f;
   margin: -1px 0 0 -21px;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
@@ -602,7 +602,7 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 }
 .toplogo-link img {
   vertical-align: top;
-  max-width: 15rem;
+  max-width: 4.875rem;
 }
 
 .toplogo-text {
@@ -767,15 +767,14 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
 }
 
 .middle-left-cols {
-  flex: 0 0 12.5rem;
+  flex: 0 0 16.25rem;
 }
 
 .middle-left-title {
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
   margin-bottom: 1.25rem;
   line-height: 1;
-  font-family: "Digital Desolation", sans-serif;
 }
 
 .middle-left-item {
@@ -846,7 +845,7 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
     align-items: flex-start;
   }
   .toplogo-link img {
-    max-width: 11.25rem;
+    max-width: 4rem;
   }
   .toplogo-text {
     display: none;
@@ -863,16 +862,19 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   }
   .middle-left-item {
     padding: 1.875rem 0 0 0;
+    position: static;
   }
   .middle-left-title {
-    font-size: 0.75rem;
+    font-size: 1.25rem;
   }
   .middle-menu-list {
     display: flex;
-    gap: 1.25rem;
+    flex-wrap: wrap;
+    gap: 0.625rem;
   }
   .middle-menu {
     font-size: 0.875rem;
+    white-space: nowrap;
   }
   .middle-right-cols {
     padding: 1.875rem 0 3.125rem;
@@ -1416,5 +1418,137 @@ html:not(.touchmode) ::-webkit-scrollbar-track {
   }
   .gallery-spec-link {
     max-width: 1.25rem;
+  }
+}
+.middle-right-title-row {
+  margin-bottom: 4.375rem;
+}
+
+.middle-right-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.middle-right-title-count {
+  margin-top: 0.3125rem;
+}
+
+.block-item {
+  margin-bottom: 3.125rem;
+}
+
+.block-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.block-copy {
+  position: relative;
+  margin-top: 0.9375rem;
+  padding-left: 1.4375rem;
+  font-size: 1.25rem;
+}
+.block-copy:before {
+  display: block;
+  content: "";
+  width: 0.5rem;
+  height: 1.4375rem;
+  position: absolute;
+  top: 0.125rem;
+  left: 0;
+  background: #e5e5e5;
+}
+
+.block-contents {
+  margin-top: 0.9375rem;
+}
+
+.block-slice-item {
+  margin-bottom: 1.25rem;
+}
+.block-slice-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.block-slice-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.4375rem;
+}
+
+.vertical-cont-item {
+  margin-bottom: 3.125rem;
+}
+.vertical-cont-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.vertical-cont-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 0.625rem;
+}
+
+.codinglist-tb {
+  width: 100%;
+  font-size: 0.8125rem;
+  border-top: solid 2px #555;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+}
+.codinglist-tb thead tr th {
+  padding: 10px;
+  border: solid 1px #ddd;
+  background: #efefef;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 0.8125rem;
+}
+.codinglist-tb tbody tr:hover {
+  background: #fbfbfb;
+}
+.codinglist-tb tbody td {
+  padding: 0.3125rem 0.625rem;
+  border: solid 1px #ccc;
+  vertical-align: middle;
+}
+
+@media (max-width: 767px) {
+  .middle-right-title-row {
+    margin-bottom: 2.5rem;
+  }
+  .middle-right-title {
+    font-size: 1.25rem;
+  }
+  .block-title {
+    font-size: 1.25rem;
+  }
+  .block-copy {
+    margin-top: 0.625rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .block-copy:before {
+    width: 0.3125rem;
+    height: 1.125rem;
+    top: 0.1875rem;
+  }
+  .block-contents {
+    margin-top: 0.9375rem;
+  }
+  .block-slice-item {
+    margin-bottom: 1.25rem;
+  }
+  .block-slice-item:last-of-type {
+    margin-bottom: 0;
+  }
+  .block-slice-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.4375rem;
   }
 }/*# sourceMappingURL=style.css.map */

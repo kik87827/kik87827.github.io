@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <script src="./assets/js/ui.js"></script>
+    <title>UIK</title>
+  </head>
+  <body>
+    <div id="app" class="page-wrap">
+      <header class="header-wrap">
+        <div class="header-inner">
+          <h1 class="toplogo">
+            <a href="#" class="toplogo-link"
+              ><img src="./assets/images/toplogo_uik_2x2.png" alt="UIK" /><span
+                class="toplogo-text"
+                >Frontend Developer</span
+              ></a
+            >
+          </h1>
+          <div class="header-main-cols">
+            <nav class="nav-wrap">
+              <ul class="nav-list">
+                <li><a href="#" class="nav-item">ABOUT</a></li>
+                <li><a href="#" class="nav-item">WORK</a></li>
+                <li><a href="Component.html" class="nav-item">COMPONENT</a></li>
+                <!-- <li><a href="#" class="nav-item">STUDY</a></li> -->
+              </ul>
+            </nav>
+            <div class="util-item-wrap">
+              <ul class="util-item-list">
+                <li>
+                  <span class="util-item"
+                    ><img src="./assets/images/react_logo.svg" alt="react"
+                  /></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="javascript:void(0)" class="btn-panel-menu">
+            <span class="btn-panel-menu-ico"></span>
+            <span class="hdtext">메인 메뉴 열기</span>
+          </a>
+          <!-- mobile menu -->
+          <div class="mobile-menu-zone">
+            <div class="mobile-menu-wrap">
+              <div class="mobile-menu-inner">
+                <ul class="mobile-menu-list">
+                  <li><a href="index.html" class="mobile-menu">ABOUT</a></li>
+                  <li><a href="work.html" class="mobile-menu">WORK</a></li>
+                </ul>
+              </div>
+              <a href="javascript:void(0)" class="btn-mobile-menu-close"
+                ><span class="hdtext">메인 메뉴 닫기</span></a
+              >
+            </div>
+          </div>
+          <!-- // mobile menu -->
+        </div>
+      </header>
+      <section class="middle-wrap">
+        <div class="middle-templete">
+          <div class="middle-left-cols">
+            <div class="middle-left-item">
+              <h2 class="middle-left-title">Publishing list</h2>
+              <ul class="middle-menu-list">
+                <li><a href="#" class="middle-menu active">MY</a></li>
+                <li><a href="#" class="middle-menu">청구</a></li>
+                <li><a href="#" class="middle-menu">대출</a></li>
+                <li><a href="#" class="middle-menu">상품</a></li>
+                <li><a href="#" class="middle-menu">고객지원</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="middle-right-cols">
+            <div class="middle-right-content">
+              <div class="middle-right-title-row">
+                <h3 class="middle-right-title">퍼블리싱 리스트</h3>
+                <div class="middle-right-title-count-wrap">
+                  <p class="middle-right-title-count">
+                    End page : <span class="current-count">5</span>page / Total
+                    page : <span class="total-count">15</span>page
+                  </p>
+                  <p class="middle-right-title-count">
+                    진행율 : <span class="current-count-per">33</span>%
+                  </p>
+                </div>
+              </div>
+              <div class="vertical-cont-item-wrap">
+                <div class="vertical-cont-item">
+                  <p class="vertical-cont-title">MY</p>
+                  <div class="vertical-cont-content">
+                    <div class="codinglist-tb-wrap">
+                      <table class="codinglist-tb">
+                        <thead>
+                          <tr>
+                            <th class="num">no.</th>
+                            <th class="depth">메뉴명</th>
+                            <th class="screen-id">화면 ID</th>
+                            <th class="worker">담당자</th>
+                            <th class="work">현황</th>
+                            <th class="else">비고</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="num">1</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000000</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else">비고란입니다.</td>
+                          </tr>
+                          <tr>
+                            <td class="num">2</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000001</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else"></td>
+                          </tr>
+                          <tr>
+                            <td class="num">3</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000002</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work end">완료</td>
+                            <td class="else"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="vertical-cont-item">
+                  <p class="vertical-cont-title">청구</p>
+                  <div class="vertical-cont-content">
+                    <div class="codinglist-tb-wrap">
+                      <table class="codinglist-tb">
+                        <thead>
+                          <tr>
+                            <th class="num">no.</th>
+                            <th class="depth">메뉴명</th>
+                            <th class="screen-id">화면 ID</th>
+                            <th class="worker">담당자</th>
+                            <th class="work">현황</th>
+                            <th class="else">비고</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="num">1</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000000</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else">비고란입니다.</td>
+                          </tr>
+                          <tr>
+                            <td class="num">2</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000001</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else"></td>
+                          </tr>
+                          <tr>
+                            <td class="num">3</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000002</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work end">완료</td>
+                            <td class="else"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="vertical-cont-item">
+                  <p class="vertical-cont-title">대출</p>
+                  <div class="vertical-cont-content">
+                    <div class="codinglist-tb-wrap">
+                      <table class="codinglist-tb">
+                        <thead>
+                          <tr>
+                            <th class="num">no.</th>
+                            <th class="depth">메뉴명</th>
+                            <th class="screen-id">화면 ID</th>
+                            <th class="worker">담당자</th>
+                            <th class="work">현황</th>
+                            <th class="else">비고</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="num">1</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000000</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else">비고란입니다.</td>
+                          </tr>
+                          <tr>
+                            <td class="num">2</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000001</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else"></td>
+                          </tr>
+                          <tr>
+                            <td class="num">3</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000002</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work end">완료</td>
+                            <td class="else"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="vertical-cont-item">
+                  <p class="vertical-cont-title">상품</p>
+                  <div class="vertical-cont-content">
+                    <div class="codinglist-tb-wrap">
+                      <table class="codinglist-tb">
+                        <thead>
+                          <tr>
+                            <th class="num">no.</th>
+                            <th class="depth">메뉴명</th>
+                            <th class="screen-id">화면 ID</th>
+                            <th class="worker">담당자</th>
+                            <th class="work">현황</th>
+                            <th class="else">비고</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="num">1</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000000</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else">비고란입니다.</td>
+                          </tr>
+                          <tr>
+                            <td class="num">2</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000001</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else"></td>
+                          </tr>
+                          <tr>
+                            <td class="num">3</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000002</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work end">완료</td>
+                            <td class="else"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="vertical-cont-item">
+                  <p class="vertical-cont-title">고객지원</p>
+                  <div class="vertical-cont-content">
+                    <div class="codinglist-tb-wrap">
+                      <table class="codinglist-tb">
+                        <thead>
+                          <tr>
+                            <th class="num">no.</th>
+                            <th class="depth">메뉴명</th>
+                            <th class="screen-id">화면 ID</th>
+                            <th class="worker">담당자</th>
+                            <th class="work">현황</th>
+                            <th class="else">비고</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="num">1</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000000</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else">비고란입니다.</td>
+                          </tr>
+                          <tr>
+                            <td class="num">2</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000001</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work">대기중</td>
+                            <td class="else"></td>
+                          </tr>
+                          <tr>
+                            <td class="num">3</td>
+                            <td class="depth">
+                              <a href="#" target="_blank" class="screen-link"
+                                >메뉴명1 &gt; 메뉴명2</a
+                              >
+                            </td>
+                            <td class="screen-id">
+                              <a href="#" target="_blank" class="screen-link"
+                                >MY000002</a
+                              >
+                            </td>
+                            <td class="worker">홍길동</td>
+                            <td class="work end">완료</td>
+                            <td class="else"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-wrap">
+        <div class="footer-inner">
+          <p class="footer-copy">Copyright (c) UIK. All rights reserved</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
