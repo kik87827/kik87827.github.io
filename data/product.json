@@ -1,0 +1,50 @@
+[
+  {
+    "menuName": "상품메인",
+    "menuLink": "/product/main",
+    "screenID": "product01",
+    "staff": "소윤호",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "상품상세",
+    "menuLink": "/product/detail",
+    "screenID": "product02",
+    "staff": "소윤호",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "상품보장내용",
+    "menuLink": "/product/detail",
+    "screenID": "product03",
+    "staff": "소윤호",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료알아보기(바텀시트팝업)",
+    "menuLink": "/product/detail?action=layer_personal",
+    "screenID": "product04",
+    "staff": "소윤호",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료알아보기 조회화면",
+    "menuLink": "/product/deductibleDetail",
+    "screenID": "product05",
+    "staff": "소윤호",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료알아보기 결과화면",
+    "menuLink": "/product/deductibleResultDetail",
+    "screenID": "product06",
+    "staff": "소윤호",
+    "current": "완료",
+    "note": "비고란"
+  }
+]

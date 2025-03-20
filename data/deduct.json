@@ -1,0 +1,90 @@
+[
+  {
+    "menuName": "로그인",
+    "menuLink": "/",
+    "screenID": "login",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제금 청구 - 메인",
+    "menuLink": "/deduct/main",
+    "screenID": "deduct00",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "토글 모션 대기"
+  },
+  {
+    "menuName": "공제료 납입 - 납입정보 입력",
+    "menuLink": "/deduct/form",
+    "screenID": "deduct01",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "combo박스 컴포넌트 자리만 잡음"
+  },
+  {
+    "menuName": "공제료 납입 - 금고계좌 레이어",
+    "menuLink": "/deduct/form?action=layer_account",
+    "screenID": "deduct02",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "페이지 작업시 콤보박스 갱신 작업 필요"
+  },
+  {
+    "menuName": "공제료 납입 - 공제료 납입 안내",
+    "menuLink": "/deduct/form?action=layer_info",
+    "screenID": "deduct03",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료 납입 - 공제금 출금정보 확인",
+    "menuLink": "/deduct/withdraw",
+    "screenID": "deduct04",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료 납입 - 단건납입",
+    "menuLink": "/deduct/payment",
+    "screenID": "deduct05",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료 납입 - 단건납입 - 신청동의 레이어",
+    "menuLink": "/deduct/payment?action=layer_agree",
+    "screenID": "deduct06",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료 납입 - 단건납입 - 신청동의 상세레이어",
+    "menuLink": "/deduct/payment?action=layer_agreedetail",
+    "screenID": "deduct07",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료 납입 - 다건납입",
+    "menuLink": "/deduct/payment?action=tab2",
+    "screenID": "deduct08",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "비고란"
+  },
+  {
+    "menuName": "공제료 납입 완료",
+    "menuLink": "/deduct/finish",
+    "screenID": "deduct09",
+    "staff": "김인경",
+    "current": "완료",
+    "note": "비고란"
+  }
+]
